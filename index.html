@@ -153,6 +153,13 @@
 		})
 		$(".describe").height(screen.height - 120);
 
+		var w = screen.width
+		if (screen.width < 600) {
+			$(".describe-img").hide()
+			$(".describe-item").css('padding-top', screen.height / 2 - 150)
+		}
+
+
 		setTimeout(function() {
 			$(".logo-index").hide();
 			$(".bg-base").show();
