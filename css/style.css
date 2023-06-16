@@ -6,6 +6,7 @@
 	display: none;
 }
 
+
 .logo-index {
 	background-image: url(../images/background.d1fbc95e.png);
 	position: fixed;
@@ -83,7 +84,7 @@
 
 
 .header {
-	width: 1440px;
+	width: 100%;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
@@ -91,9 +92,9 @@
 }
 
 .header .logo {
-	font-size: 1.125rem;
-	line-height: 1.75rem;
+	font-size: 1.175rem;
 	color: #fff;
+	padding: 0 0 0 3%;
 }
 
 
@@ -114,7 +115,7 @@
 }
 
 .describe {
-	width: 1440px;
+	width: 100%;
 	color: #fff;
 	margin: 0 auto;
 }
@@ -123,24 +124,29 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 200px 0 0 0;
 }
 
 .describe-img img {
 	width: 600px;
 }
 
+.describe-text {
+	flex: 1;
+}
 
 .describe h2 {
 	font-size: 4.5rem;
 	padding: 1rem 0;
 	margin: 0;
+	text-align: center;
 }
+
 
 .describe p {
 	font-size: 3.5rem;
 	padding: 0;
 	margin: 0;
+	text-align: center;
 }
 
 
@@ -150,7 +156,7 @@
 }
 
 .purple-item {
-	width: 1440px;
+	width: 100%;
 	margin: 0 auto;
 	padding: 2.5rem 0 5rem 0;
 }
@@ -169,19 +175,20 @@
 }
 
 .purple-list-item {
-	width: 1440px;
+	width: 100%;
 	margin: 0 auto;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .purple-list {
 	text-align: center;
+	width: 100%;
 }
 
 .items-img {
-	width: 260px;
 	height: 475px;
 	border-radius: 8px;
 	display: flex;
@@ -194,7 +201,6 @@
 }
 
 .items-name {
-	width: 260px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -221,7 +227,7 @@
 }
 
 .footer {
-	width: 1440px;
+	width: 100%;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
@@ -234,17 +240,17 @@
 }
 
 .footer-left {
-	width: 40%;
+	width: 25%;
 	font-size: 2.25rem;
 	line-height: 2.5rem;
-	padding: 5rem 0;
+	margin: 5rem 0 5rem 2rem;
 }
 
 .footer-right {
-	width: 60%;
-	font-size: 3.75rem;
-	line-height: 3.75rem;
-	padding: 5rem 0;
+	width: 75%;
+	font-size: 2.75rem;
+	line-height: 2.75rem;
+	margin: 5rem 0;
 }
 
 .footer-right p {
@@ -253,4 +259,64 @@
 
 .footer-email {
 	font-size: 2.75rem;
+}
+
+
+
+@media screen and (min-width:1300px) {
+	.header {
+		width: 1440px;
+	}
+
+	.header .logo {
+		padding: 0;
+	}
+
+	.describe {
+		width: 1440px;
+	}
+
+	.describe-item {
+		padding: 200px 0 0 0;
+	}
+
+	.describe h2 {
+		text-align: left;
+	}
+
+	.describe p {
+		text-align: left;
+	}
+
+	.purple-item {
+		width: 1440px;
+	}
+
+	.purple-list-item {
+		width: 1440px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: nowrap;
+	}
+
+	.items-img {
+		text-align: center;
+	}
+
+
+	.footer {
+		width: 1440px;
+	}
+
+	.footer-left {
+		width: 40%;
+		margin: 5rem 0;
+	}
+
+	.footer-right {
+		width: 60%;
+		font-size: 3.75rem;
+		line-height: 3.75rem;
+	}
 }
