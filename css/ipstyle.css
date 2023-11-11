@@ -1,0 +1,508 @@
+@media screen and (max-width: 1024px) {
+    .header-wapper{
+        display: none;
+    }
+    .phone-header-wapper{
+        width: 100%;
+        height: 100%;
+        background: url(../images/bg4.png) no-repeat top center #010014;
+        background-size: 100% 100%;
+        backdrop-filter: blur(10px);
+        display: block;
+    }
+    .phone-nav{
+        width: 100%;
+        height: 112px;
+        background-color: rgba(0,0,0,0.2);
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        align-content:center;
+    }
+    .phone-logo{
+        padding:0 0 0 40px;
+    }
+    .phone-menu{
+        padding:0 40px 0 0;
+    }
+    .phone-header-content{
+        width: 100%;
+        margin:0 auto;
+        text-align:center;
+    }
+    .phone-content-title{
+        font-size: 72px;
+        font-weight: bold;
+        color: #FFFFFF;
+        padding:140px 88px 48px 88px;
+    }
+    .phone-content-intro{
+        font-size: 28px;
+        font-weight: bold;
+        color: #FFFFFF;
+        padding:0 88px 72px 88px;
+    }
+    .phone-content-button{
+        width: 294px;
+        height: 96px;
+        background: linear-gradient(270deg, #F32EFB 0%, #3554F8 100%);
+        border-radius: 56px;
+        margin:0 auto;
+        line-height: 96px;
+    }
+    .phone-content-button a{
+        color:#fff;
+    }
+    .phone-header-data{
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        align-content:center;
+        flex-wrap:wrap;
+        padding:120px 48px 140px 48px;
+    }
+    .data-item-info{
+        width:48%;
+        text-align:left;
+        height: 160px;
+        background: rgba(255,255,255,0.07);
+        border-radius: 32px;
+        margin:0 0 38px 0;
+    }
+    .info-title{
+        padding:28px 0 4px 40px;
+        font-size: 48px;
+    }
+    .info-content{
+        padding:0 0 0 40px;
+        font-size: 24px;
+    }
+    .menu{
+        width:100%;
+        height:100%;
+        position:fixed;
+        top:0;
+        left:0;
+        background: #010014;
+        display:none;
+    }
+    .menu-nav{
+        padding:0 0 0 40px;
+    }
+    .phone-back{
+        padding:0 40px 0 0;
+    }
+    .menu-item{
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        align-content:center;
+        padding:72px 0 0 0;
+    }
+    .menu-right img{
+        display:block;
+        padding:5px 40px 0 0;
+    }
+    .menu-lang-right img{
+        display:block;
+        padding:5px 40px 0 0;
+    }
+    .menu-item a,.menu-item span{
+        font-size: 32px;
+        font-weight: 600;
+        color: #FFFFFF;
+        display:block;
+    }
+    .menu-item a:hover,.menu-item span:hover{
+        background: linear-gradient(270deg, #F32EFB 0%, #3554F8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .menu-button{
+        margin:120px 40px;
+        width:calc(100% - 80px);
+        height: 96px;
+        background: linear-gradient(270deg, #F32EFB 0%, #3554F8 100%);
+        border-radius: 48px;
+    }
+    .menu-button a{
+        font-size: 32px;
+        font-weight: 600;
+        color: #FFFFFF;
+        display:block;
+        line-height: 96px;
+        text-align:center;
+    }
+    .black-line{
+        display:none;
+    }
+    .traders-wapper{
+        width:100%;
+        height:100%;
+        background:none;
+        background-color:#010014;
+    }
+    .look-wapper{
+        width:100%;
+        height:100%;
+        background: url(../images/bg5.png) no-repeat top center #010014;
+        background-size: 100% 100%;
+    }
+    .traders-content{
+        width:calc(100% - 40px);
+        padding:0 0 0 40px;
+    }
+    .traders-list{
+        overflow-x: scroll;
+        white-space: nowrap;
+        width:calc(100% - 40px);
+        display: inline-block;
+    }
+    .traders-title{
+        font-size: 48px;
+    }
+    .traders-item{
+        width:546px;
+        display: inline-block;
+        
+    }
+.traders-item{
+        width:546px;
+        display: inline-block;
+        
+    }
+.traders-item::before{
+height:0px;
+}
+    .traders-item img{
+        display:block;
+        width:98px;
+        height:98px;
+    }
+    .traders-name{
+        font-size: 32px;
+        padding:32px 0 0 0;
+        height: 50px;
+    }
+    .traders-info{
+        font-size: 28px;
+        width:440px;
+        line-height: 42px;
+        white-space:pre-line;
+        display: inline-block;
+    }
+    .look-content{
+        width:100%;
+    }
+    .look-title{
+        padding:140px 0 0 40px;
+        font-size: 48px;
+    }
+    .look-list{
+        width:calc(100% - 80px);
+        padding:100px 40px 0 40px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        overflow:hidden;
+    }
+    .look-list-other{
+        width:calc(100% - 80px);
+        padding:0 40px 0 40px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        overflow:hidden;
+    }
+    .look-list .look-item{
+        text-align:left;
+        padding:0 0 40px 40px;
+    }
+    .look-list-other .look-item{
+        text-align:left;
+        padding:0 0 40px 40px;
+    }
+    .look-list-other .look-item:nth-child(1){
+        width: 630px;
+    }
+    .look-list-other .look-item:nth-child(2){
+        width: 630px;
+    }
+    .look-list .look-item:nth-child(1){
+        width: 630px;
+    }
+    .look-list .look-item:nth-child(2){
+        width: 630px;
+    }
+    .look-list .look-item:nth-child(3){
+        width: 630px;
+    }
+    .look-list .look-item:nth-child(2) .look-info{
+        padding:0;
+    }
+    .look-list .look-item:nth-child(3) .look-info{
+        padding:0;
+    }
+    .look-list .look-item img{
+        width:96px;
+        height:96px;
+    }
+    .look-name{
+        font-size: 32px;
+        padding:32px 0 20px 0;
+    }
+    .look-info{
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .look-list::before{
+        height: 0;
+    }
+    .look-item::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        z-index: 15;
+        width: 1px;
+        height: 100%;
+        background: #fff;
+        opacity: 0.4;
+    }
+    .look-list .look-item:nth-child(3):before{
+        width: 1px;
+    }
+    .look-item::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: block;
+        z-index: 15;
+        width: 670px;
+        height: 1px;
+        background: linear-gradient(360deg, rgba(255,255,255,0) 0%, #FFFFFF 100%);
+        opacity: 0.4;
+    }
+    .look-list-other .look-item:nth-child(1) .look-info{
+        padding:0;
+    }
+    .look-list-other .look-item:nth-child(1) .look-name{
+        padding:32px 0 20px 0;
+    }
+    .look-list-other .look-item:nth-child(1) img{
+            padding:0;
+            width:96px;
+            height:96px;
+    }
+    
+    .look-list-other .look-item:nth-child(2) .look-info{
+            padding:0;
+    }
+    .look-list-other .look-item:nth-child(2) .look-name{
+        padding:32px 0 20px 0;
+     }
+    .look-list-other .look-item:nth-child(2) img{
+            padding:0;
+            width:96px;
+            height:96px;
+    }
+    .look-list-other .look-item:nth-child(2):before{
+        width: 1px;
+    }
+    .chances-content{
+        width:calc(100% - 40px);
+        overflow:hidden;
+        padding:160px 0 0 40px;
+    }
+    .chances-title{
+        font-size: 42px;
+        padding:0 0 40px 0;
+    }
+    .chances-subtitle{
+        font-size: 28px;
+        width:100%;
+        white-space: pre-line;
+        line-height: 42px;
+    }
+    .chances-list{
+        width:calc(100% - 14px);
+    }    
+    .chances-list .chances-item{
+        width:33.33%;
+        padding: 0 0 28px 0;
+    }
+    .chances-item-bg{
+        width:calc(100% - 26px);
+        height: 90px;
+        background: rgba(255,255,255,0.07);
+        border-radius: 14px;
+    }
+    .chances-item-bg img{
+        width:178px;
+        height:54px;
+    }
+    .roadmap-content{
+        width:100%;
+        padding:152px 0 0 0;
+    }
+
+    .roadmap-button-bg{
+        display:none;
+    }
+    .roadmap-name{
+        font-size: 48px;
+        padding:0 0 100px 40px;
+    }
+    .roadmap-bd{
+        display:none;
+    }
+    .roadmap-phone-bd{
+        display:block;
+    }
+    .phone-pic-list{
+       overflow-x: scroll;
+       white-space: nowrap;
+       width: calc(100% - 40px);
+       display: inline-block;
+    }
+    .phone-list-item{
+        width: 710px;
+        height: 552px;
+        background: rgba(255,255,255,0.07);
+        border-radius: 48px;
+        display: inline-block;
+        margin:0 0 0 40px;
+    }
+    .phone-list-item:hover{
+        background: linear-gradient(270deg, #F32EFB 0%, #3554F8 100%);
+    }
+
+    .phone-list-item .list-name{
+        padding:60px 0 48px 60px;
+        font-size: 48px;
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+    .phone-list-item .list-pic{
+        display: flex;
+        justify-content:flex-start;
+        align-items:center;
+        align-content:center;
+        padding:0 0 28px 60px;
+    }
+    .phone-list-item .list-pic .list-info{
+        padding:0 0 0 20px;
+        font-size: 28px;
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+    .phone-list-item .list-sel img{
+        width:40px;
+        height:40px;
+        display: block;
+        margin: 2px 0 0 0;
+    }
+
+    .join-content{
+        width: calc(100% - 80px);
+        padding:154px 40px 168px 40px;
+    }
+    
+    .join-bg{
+        width:100%;
+        background: url(../images/bg6.png) no-repeat top center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height:100%;
+        border-radius: 48px;
+    }
+    .join-subtitle{
+        font-size: 32px;
+        padding:120px 0 48px 0;
+        line-height: 48px;
+    }
+    .join-title{
+        font-size: 100px;
+        padding:0 80px 88px 80px;
+        text-align: center;
+        line-height: 140px;
+    }
+    .join-button{
+        flex-wrap: wrap;
+    }
+    .join-button-left{
+        width: 420px;
+        height: 112px;
+        border-radius: 56px;
+        margin:0 63px;
+    }
+    .join-button-left a{
+        font-size: 28px;
+        line-height: 112px;
+    }
+    .join-button-right{
+        width: 420px;
+        height: 112px;
+        background: url("../images/button_2.png") no-repeat top center;
+        text-align: center;
+        margin:54px 0 120px 0;
+        cursor:pointer;
+    }
+    .join-button-right a{
+        font-size: 28px;
+        line-height: 112px;
+    }
+    .footer-wapper{
+        width: 100%;
+        height: 100%;
+        overflow:hidden;
+    }
+    .footer-content{
+        width: 100%;
+        padding:160px 0;
+    }
+    .footer-bg{
+        flex-wrap: wrap;
+    }
+    .footer-ours{
+        width: calc(100% - 80px);
+        padding:0 40px 0 40px;
+    }
+    .ours-logo img{
+        width: 232px;
+        height: 64px;
+    }
+    .ours-info{
+        font-size: 32px;
+        line-height: 48px;
+        width: calc(100% - 120px);
+        padding:60px 0;
+    }
+    .ours-connect img{
+        margin:0 40px 0 0;
+        width: 60px;
+        height: 60px;
+    }
+    .footer-link{
+        width: 50%;
+        padding: 120px 0 0 0;
+        flex-wrap: wrap;
+    }
+    .link-title{
+        font-size: 36px;
+        line-height: 52px;
+        padding: 40px 0 0 40px;
+        height: 42px;
+    }
+    .link-other a{
+        padding:64px 0 0 40px;
+        height: 44px;
+        font-size: 32px;
+        line-height: 44px;
+        width:100%;
+        display:block;
+        overflow-wrap: anywhere;
+    }
+}

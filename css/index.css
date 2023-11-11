@@ -2,13 +2,30 @@ html {
 	scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+	display: none; /* Chrome Safari */
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('Poppins-SemiBold.woff2') format('woff2'),
+        url('Poppins-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
 body {
 	margin: 0;
-	font-family: "Manrope", sans-serif;
+	font-family: Poppins-SemiBold, Poppins;
 	/* 	font-family: "YouTube Sans", "Roboto", sans-serif; */
 	font-size: 2rem;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	scrollbar-width: none; /* firefox */
+   -ms-overflow-style: none; /* IE 10+ */
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 ol,
@@ -24,3 +41,4 @@ h2 {
 	margin: 0;
 	padding: 0;
 }
+a{text-decoration:none}
