@@ -6,7 +6,7 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-/*	margin:0 auto;*/
+	/*	margin:0 auto;*/
 }
 .phone-header-wapper{
 	display: none;
@@ -37,7 +37,7 @@
 	justify-content:flex-start;
 	align-items:center;
 	align-content:center;
-/*	padding-left:120px;*/
+	/*	padding-left:120px;*/
 }
 .logo-nav .nav{
 	padding-left: 73px;
@@ -109,7 +109,7 @@
 	align-items:center;
 	align-content:center;
 	height: 48px;
-/*	padding-right: 120px;*/
+	/*	padding-right: 120px;*/
 }
 .tool .item-title a,.tool .item-title.setup{
 	display: flex;
@@ -594,6 +594,9 @@
 	transition:all 1s ease 0s;
 	margin-right:26px;
 	cursor:pointer;
+}
+.pic-list li.selected-list{
+	background: linear-gradient(270deg, #F32EFB 0%, #3554F8 100%);
 }
 .pic-list li:hover{
 	background: linear-gradient(270deg, #F32EFB 0%, #3554F8 100%);

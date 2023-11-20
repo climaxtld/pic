@@ -164,16 +164,16 @@
     .traders-item{
         width:546px;
         display: inline-block;
-        
+
     }
 .traders-item{
         width:546px;
         display: inline-block;
-        
+
     }
 .traders-item::before{
-height:0px;
-}
+        height:0px;
+    }
     .traders-item img{
         display:block;
         width:98px;
@@ -290,21 +290,21 @@ height:0px;
         padding:32px 0 20px 0;
     }
     .look-list-other .look-item:nth-child(1) img{
-            padding:0;
-            width:96px;
-            height:96px;
+        padding:0;
+        width:96px;
+        height:96px;
     }
-    
+
     .look-list-other .look-item:nth-child(2) .look-info{
-            padding:0;
+        padding:0;
     }
     .look-list-other .look-item:nth-child(2) .look-name{
         padding:32px 0 20px 0;
-     }
+    }
     .look-list-other .look-item:nth-child(2) img{
-            padding:0;
-            width:96px;
-            height:96px;
+        padding:0;
+        width:96px;
+        height:96px;
     }
     .look-list-other .look-item:nth-child(2):before{
         width: 1px;
@@ -360,10 +360,10 @@ height:0px;
         display:block;
     }
     .phone-pic-list{
-       overflow-x: scroll;
-       white-space: nowrap;
-       width: calc(100% - 40px);
-       display: inline-block;
+        overflow-x: scroll;
+        white-space: nowrap;
+        width: calc(100% - 40px);
+        display: inline-block;
     }
     .phone-list-item{
         width: 710px;
@@ -372,6 +372,10 @@ height:0px;
         border-radius: 48px;
         display: inline-block;
         margin:0 0 0 40px;
+        vertical-align: top;
+    }
+    .phone-list-item.selected-list{
+        background: linear-gradient(270deg, #F32EFB 0%, #3554F8 100%);
     }
     .phone-list-item:hover{
         background: linear-gradient(270deg, #F32EFB 0%, #3554F8 100%);
@@ -407,7 +411,7 @@ height:0px;
         width: calc(100% - 80px);
         padding:154px 40px 168px 40px;
     }
-    
+
     .join-bg{
         width:100%;
         background: url(../images/bg6.png) no-repeat top center;
