@@ -103,6 +103,11 @@
         display:block;
         padding:5px 40px 0 0;
     }
+    
+    .menu-pro-right img{
+    display:block;
+    padding:5px 40px 0 0;
+}
     .menu-lang-right img{
         display:block;
         padding:5px 40px 0 0;
@@ -157,6 +162,9 @@
         white-space: nowrap;
         width:calc(100% - 40px);
         display: inline-block;
+        align-content: flex-start;
+        align-items: flex-start;
+        display: flex;
     }
     .traders-title{
         font-size: 48px;
@@ -164,7 +172,7 @@
     .traders-item{
         width:546px;
         display: inline-block;
-
+        margin:0 20px 0 0;
     }
 .traders-item{
         width:546px;
