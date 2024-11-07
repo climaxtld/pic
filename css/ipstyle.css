@@ -415,6 +415,35 @@
         margin: 2px 0 0 0;
     }
 
+    .phone-list-item .list-pic-2{
+        display: flex;
+        justify-content:flex-start;
+        align-items:flex-start;
+        align-content:flex-start;
+        padding:0 0 28px 60px;
+        white-space: normal;
+    }
+    .list-sel-2{
+        justify-content:flex-start;
+        align-items:flex-start;
+        align-content:flex-start;
+        display: flex;
+    }
+    .list-sel-2 img{
+        width:40px;
+        height:40px;
+        display: block;
+        margin: 2px 0 0 0;
+    }
+
+    .phone-list-item .list-pic-2 .list-info-2{
+        padding:0 20px 0 20px;
+        font-size: 28px;
+        font-weight: 600;
+        color: #FFFFFF;
+
+    }
+
     .join-content{
         width: calc(100% - 80px);
         padding:154px 40px 168px 40px;

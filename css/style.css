@@ -270,12 +270,12 @@
 	border-radius: 16px;
 	backdrop-filter: blur(8px);
 	display: flex;
-	justify-content:flex-start;
+	justify-content:center;
 	align-items:center;
 	align-content:center;
 }
 .data-item-info{
-	width: 25%;
+	width: 50%;
 	text-align: center;
 }
 .info-title{
@@ -657,8 +657,37 @@
 	height:20px;
 }
 
+.pic-list .list-pic-2{
+	display: flex;
+	justify-content:flex-start;
+	align-items:flex-start;
+	align-content:flex-start;
+	height:24px;
+	padding:0 0 12px 30px;
+}
+.list-sel-2{
+	justify-content:flex-start;
+	align-items:flex-start;
+	align-content:flex-start;
+	display: flex;
+}
+.list-sel-2 img{
+	width:20px;
+	height:20px;
+	display: block;
+	margin-top: 2px;
+}
+
+.pic-list .list-pic-2 .list-info-2{
+	padding:2px 10px 0 10px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #FFFFFF;
+}
+
+
 .pic-list .list-pic .list-info{
-	padding:2px 0 0 10px;
+	padding:2px 10px 0 10px;
 	font-size: 14px;
 	font-weight: 600;
 	color: #FFFFFF;
