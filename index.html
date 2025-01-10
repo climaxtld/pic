@@ -15,7 +15,7 @@
 </head>
 
 <body>
-	<!--PC端头部-->
+	<!--PC top-->
 	<div class="header-wapper">
 		<div class="header-bg">
 			<div class="logo-bg">
@@ -65,9 +65,9 @@
 			<div class="header-content">
 				<div class="content-title" lang="title">What is PicWe</div>
 				<div class="content-intro">
-					<span lang="intro-1">PicWe is B2B2C Liquidity Infra. </span><br/>
-					<span lang="intro-2">It brings and retains omni- chain liquidity, maximizing users' yields.</span><br/>
-					<span lang="intro-3">Maximizing users' yields.  </span>
+					<span lang="intro-1">A decentralized, trustless, omni-chain liquidity infrastructure enabling seamless, cost-efficient trading across multiple blockchains and liquidity pools.</span><br/>
+					<!-- <span lang="intro-2">It brings and retains omni- chain liquidity, maximizing users' yields.</span><br/>
+					<span lang="intro-3">Maximizing users' yields.  </span> -->
 				</div>
 				<!--<div class="content-button"><a href="https://t.me/picwe_bot" lang="trading">Tgbot</a></div>-->
 			</div>
@@ -109,7 +109,7 @@
 			</div>
 		</div>
 	</div>
-	<!--手机端头部-->
+	<!--phone top-->
 	<div class="phone-header-wapper">
 		<div class="phone-nav">
 			<div class="phone-logo"><img src="images/p-logo.png"></div>
@@ -118,9 +118,9 @@
 		<div class="phone-header-content">
 			<div class="phone-content-title" lang="title">What is PicWe</div>
 			<div class="phone-content-intro">
-					<span lang="intro-1">PicWe is B2B2C Liquidity Infra. </span><br/>
-					<span lang="intro-2">It brings and retains omni- chain liquidity, maximizing users' yields.</span><br/>
-					<span lang="intro-3">Maximizing users' yields.  </span>				
+					<span lang="intro-1">A decentralized, trustless, omni-chain liquidity infrastructure enabling seamless, cost-efficient trading across multiple blockchains and liquidity pools.</span><br/>
+					<!-- <span lang="intro-2">It brings and retains omni- chain liquidity, maximizing users' yields.</span><br/>
+					<span lang="intro-3">Maximizing users' yields.  </span>				 -->
 			</div>
 			<!--<div class="phone-content-button"><a href="https://t.me/picwe_bot" lang="trading">Tgbot</a></div>-->
 	   </div>
@@ -507,7 +507,7 @@
 					</li>
 				</ul>
 			</div>
-			<!--手机端roadmap-->
+			<!--phone  roadmap-->
 			<div class="roadmap-phone-bd">
 				<div class="phone-pic-list">
 					<div class="phone-list-item selected-list">
@@ -723,7 +723,7 @@
 			</div>	
 		</div>
 	</div>		
-	<!--手机端导航-->
+	<!--phone  nav-->
 	<div class="menu menu-all">
 		<div class="phone-nav">
 			<div class="phone-logo"><img src="images/p-logo.png"></div>
@@ -838,7 +838,6 @@
 
 		$(".but-left").click(function(){
 			i--;
-			//点击i减1
 			if(i>=0){
 				$(".pic-list").stop().animate({left:-i*508},1000);
 			}else{
@@ -847,7 +846,7 @@
 			}
 		});
 
-		// 语言切换
+		// language switch
 		$('.setup-cn').click(() => {
 			toggleLang("cn")
 			$(".setup-list").hide()
